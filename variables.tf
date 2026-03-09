@@ -2,16 +2,16 @@ variable "project" {
     type = string
 }
 
-variable "environment {
+variable "environment" {
     type = string
 }
 
 variable "ami_id" {
-    default = string
+    type = string
 }
 
-variable  "instance_type" {
-    default  = "t3.micro"
+variable "instance_type" {
+    default = "t3.micro"
 }
 
 variable "sg_ids" {
